@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/achen\/Documents\/UFL\/MMC6278-web\/m3-hw3-chen-alex\/less\/main\.less}line{font-family:\0000321}}
 .nav {
   background-color: #f8df1f;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/achen\/Documents\/UFL\/MMC6278-web\/m3-hw3-chen-alex\/less\/main\.less}line{font-family:\0000323}}
 .nav a {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
@@ -12,19 +10,16 @@
   text-transform: uppercase;
   text-transform: capitalize;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/achen\/Documents\/UFL\/MMC6278-web\/m3-hw3-chen-alex\/less\/main\.less}line{font-family:\0000326}}
 .nav a span {
   color: red;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/achen\/Documents\/UFL\/MMC6278-web\/m3-hw3-chen-alex\/less\/main\.less}line{font-family:\0000332}}
 img {
   display: block;
   width: 90%;
   max-width: 200px;
   margin: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/achen\/Documents\/UFL\/MMC6278-web\/m3-hw3-chen-alex\/less\/main\.less}line{font-family:\0000338}}
 .jumbotron {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(59, 56, 56, 0.33)), to(rgba(59, 56, 56, 0.67))), url("../img/banner-bg.png");
   background: linear-gradient(rgba(59, 56, 56, 0.33), rgba(59, 56, 56, 0.67)), url("../img/banner-bg.png");
@@ -33,12 +28,10 @@ img {
   background-position: center center;
   padding: 10%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/achen\/Documents\/UFL\/MMC6278-web\/m3-hw3-chen-alex\/less\/main\.less}line{font-family:\0000344}}
 .jumbotron img {
   width: 100%;
   max-width: 500px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/achen\/Documents\/UFL\/MMC6278-web\/m3-hw3-chen-alex\/less\/main\.less}line{font-family:\0000349}}
 .btn {
   background-color: #f8df1f;
   font-family: 'Roboto', sans-serif;
@@ -47,8 +40,30 @@ img {
   font-weight: 500;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/achen\/Documents\/UFL\/MMC6278-web\/m3-hw3-chen-alex\/less\/main\.less}line{font-family:\0000353}}
 .grey {
   background: #f3f3f3;
 }
-/*# sourceMappingURL=main.css.map */
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: #050500;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+h2 span {
+  color: #ee2f2f;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #050500;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: none;
+}
+footer {
+  background-color: #050500;
+  border-top: solid #f8df1f 10px;
+}
