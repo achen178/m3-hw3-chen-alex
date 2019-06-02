@@ -1,21 +1,34 @@
 @import "variables";
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
 // MIXINS
 #fonts() {
-  .heading{
+  .heading {
     font-family: 'Roboto', sans-serif;
-    font-size; 30px;
-    color: @body-black;
+    font-size: 30px;
+    color: @black;
     font-weight: 500;
-    text-transform: capitalize;
+    text-transform: uppercase;
   }
-  .links{
+  .link {
     font-family: 'Roboto', sans-serif;
-    font-size; 16px;
-    color: @body-black;
+    font-size: 18px;
+    color: @black;
     font-weight: 500;
+    text-transform: uppercase;
   }
 }
 // CSS
+.nav{
+  background-color: @yellow;
+  a{
+    #fonts.link();
+    text-transform: capitalize;
+    span{
+      color: red;
+      text-transform: uppercase;
+    }
+  }
+}
 img{
   display: block;
   width: 90%;
@@ -34,10 +47,9 @@ img{
   }
 }
 .btn{
-  background-color: @accent-yellow;
-  // #fonts.links;
-
+  background-color: @yellow;
+  #fonts.link();
 }
-.container-fluid{
-  background: @main-grey;
+.grey{
+  background: @grey;
 }
