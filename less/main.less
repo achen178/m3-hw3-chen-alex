@@ -1,7 +1,43 @@
 @import "variables";
+// MIXINS
+#fonts() {
+  .heading{
+    font-family: 'Roboto', sans-serif;
+    font-size; 30px;
+    color: @body-black;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  .links{
+    font-family: 'Roboto', sans-serif;
+    font-size; 16px;
+    color: @body-black;
+    font-weight: 500;
+  }
+}
+// CSS
 img{
   display: block;
-  width: 55%;
-  max-width: 250px;
+  width: 90%;
+  max-width: 200px;
   margin: auto;
+}
+.jumbotron{
+  background: linear-gradient(rgba(59, 56, 56, .33), rgba(59, 56, 56, .67)), url("../img/banner-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 10%;
+  img{
+    width: 100%;
+    max-width: 500px;
+  }
+}
+.btn{
+  background-color: @accent-yellow;
+  // #fonts.links;
+
+}
+.container-fluid{
+  background: @main-grey;
 }

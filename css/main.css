@@ -1,6 +1,23 @@
 img {
   display: block;
-  width: 55%;
-  max-width: 250px;
+  width: 90%;
+  max-width: 200px;
   margin: auto;
+}
+.jumbotron {
+  background: linear-gradient(rgba(59, 56, 56, 0.33), rgba(59, 56, 56, 0.67)), url("../img/banner-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 10%;
+}
+.jumbotron img {
+  width: 100%;
+  max-width: 500px;
+}
+.btn {
+  background-color: #f8df1f;
+}
+.container-fluid {
+  background: #f3f3f3;
 }
